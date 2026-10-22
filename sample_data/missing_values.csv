@@ -1,0 +1,12 @@
+TxnID,Date,Description,Debit,Credit
+T1,2026-03-01,Capital introduced,100000,
+T2,,Office rent paid,25000,
+T3,2026-03-05,Stationery,,3200
+T4,32/13/2026,Invalid date entry,5000,
+T5,2026-03-08,Bad amount entry,abc,
+T6,2026-03-10,Negative debit,-4000,
+T7,2026-03-12,Outlier purchase,5000000,
+T8,2026-03-14,Round thousands 1,10000,
+T9,2026-03-15,Round thousands 2,20000,
+T10,2026-03-16,Round thousands 3,30000,
+T11,2026-03-17,Round thousands 4,40000,

@@ -1,0 +1,11 @@
+Date,Description,Ref,Amount
+2026-01-05,Office rent paid,TXN-001,50000
+2026-01-08,Stationery purchase,TXN-002,12500
+2026-01-10,Client receipt - Ahmed Traders,TXN-003,200000
+2026-01-12,Utility bill K-Electric,TXN-004,18750
+2026-01-15,Bank charges,TXN-005,1500
+2026-01-18,Audit fee advance,TXN-006,75000
+2026-01-20,Deposit not in books,TXN-007,30000
+2026-01-22,Duplicate test entry,TXN-008,9000
+2026-01-25,Amount differs entry,TXN-009,45000
+2026-01-28,Entry with missing ref,,12000

@@ -1,0 +1,18 @@
+# CA Copilot Local — dependencies
+# Stable, well-maintained libraries with permissive licenses. No cloud SDKs.
+# Install on Windows with:  pip install -r requirements.txt
+# Python 3.10+ recommended (tested on 3.12).
+
+streamlit>=1.32,<2        # local desktop-style web UI (localhost only)
+pandas>=2.0               # spreadsheet analysis (workbench)
+openpyxl>=3.1             # XLSX read/write (no macros executed)
+pypdf>=4.0                # PDF text extraction (BSD license)
+python-docx>=1.1          # DOCX text extraction
+requests>=2.31            # local Ollama HTTP API (localhost only)
+pillow>=10.0              # image handling (needed only if OCR is enabled)
+
+# ---- testing ----
+pytest>=8.0
+
+# ---- optional: OCR for scanned PDFs (off by default; install only if needed) ----
+# pytesseract>=0.3.10     # needs the Tesseract-OCR program installed separately

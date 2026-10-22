@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.testvenv/
+venv/
+.pytest_cache/
+
+# App runtime (local only, never commit)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+launch.log
+dashboard_config.json
+
+# Distribution archives
+*.zip

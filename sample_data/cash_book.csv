@@ -1,0 +1,11 @@
+Date,Narration,Ref,Amount
+2026-01-05,Office rent - Jan,TXN-001,50000
+2026-01-08,Stationery - Al-Madina,TXN-002,12500
+2026-01-10,Receipt Ahmed Traders,TXN-003,200000
+2026-01-12,K-Electric bill,TXN-004,18750
+2026-01-15,Bank charges Jan,TXN-005,1500
+2026-01-18,Audit fee advance,TXN-006,75000
+2026-01-21,Petty cash top-up,TXN-010,25000
+2026-01-22,Dup entry first,TXN-008,9000
+2026-01-23,Dup entry second,TXN-008,9000
+2026-01-25,Amount differs entry,TXN-009,45500
