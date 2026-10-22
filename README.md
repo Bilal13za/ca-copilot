@@ -129,3 +129,20 @@ docs/                   test report, privacy & limitations
 | Model slow / out of memory | Use a smaller model (qwen3:1.7b) or close other apps |
 | Scanned PDF shows "needs OCR" | Enable OCR in Settings after installing Tesseract |
 | Import fails on a file | The file may be corrupt/encrypted — the app reports why instead of crashing |
+
+
+## Run on any device (in your browser)
+
+The Windows download above is the full offline version. To open this app on
+your phone, tablet, or any computer without installing anything, host it free
+on **Streamlit Community Cloud**:
+
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+2. **New app** → pick this repository (`Bilal13za/ca-copilot`), branch `main`,
+   main file `app.py`.
+3. **Deploy** — after a minute or two you get a link like
+   `https://ca-copilot.streamlit.app` that works on any device.
+
+Two honest caveats: anything you save in the cloud copy is temporary (it
+resets when the app sleeps from inactivity), and the AI Study Coach needs Ollama running on your own computer, so the cloud link shows your document passages instead of AI answers — for the full AI features, use the Windows version and the Windows version
+remains the full, keep-everything version.
